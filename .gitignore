@@ -3,6 +3,11 @@
 *.pbit~
 .pbi/
 
+# Credentials & local environment files (never commit ISU tokens or passwords)
+.env
+*.secret
+credentials.json
+
 # OS & Editor files
 .DS_Store
 Thumbs.db
